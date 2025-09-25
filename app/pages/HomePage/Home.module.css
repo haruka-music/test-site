@@ -2,10 +2,9 @@
   text-align: center;
 }
 .image {
-  margin: 30px;
-  border-radius: 50%;
+  margin-left: 1000px;
+  border-radius: 10%;
   overflow: hidden;
-  padding: 10px;
 }
 .description {
   font-size: 30px;

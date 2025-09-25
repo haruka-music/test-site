@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+}
+
+.ul {
+  margin-left: 30px;
+  display: flex;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.Sidebar {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.SidebarList {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px;
+}
+.ListName {
+  margin-right: 10px;
+}
+.Link {
+  border-bottom: solid #ff00ff;
+}
+
+.Link:hover {
+  color: #ff00ff;
+}
