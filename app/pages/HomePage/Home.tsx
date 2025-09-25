@@ -1,17 +1,19 @@
 import React from "react";
+import Sidebar from "@/app/components/layouts/sidebar/sidebar";
 import Styles from "@/app/pages/HomePage/Home.module.css";
 import Image from "next/image";
-import HomeImage from "@/public/BackImage/coming soon.jpg";
+import HomeImage from "@/public/noodle/curtain.png";
 // import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
+      <Sidebar />
       <section className={Styles.section}>
         <figure className={Styles.image}>
           <Image src={HomeImage} width={800} height={400} alt="main" />
           <p className={Styles.description}>
-            Well come to Haruka Website
+            Well come to noodle Website
             <br />
             Please take your time.
           </p>
