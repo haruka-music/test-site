@@ -6,7 +6,7 @@ const sidebar = () => {
   return (
     <>
       <nav className={Styles.nav}>
-        <h1>ラーメン道</h1>
+        <h1 className={Styles.h1}>ラーメン道</h1>
         <ul className={Styles.ul}>
           <div style={{ width: "50px" }}>
             <div style={{ margin: "10px", fontSize: "x-large" }}>
@@ -25,7 +25,7 @@ const sidebar = () => {
             </div>
           </div>
           <li className={Styles.ListName}>
-            <Link className={Styles.Link} to="/Player">
+            <Link className={Styles.Link} to="/Shop">
               お店情報
             </Link>
           </li>
