@@ -10,8 +10,14 @@ const Home = () => {
     <div>
       <Sidebar />
       <section className={Styles.section}>
-        <figure className={Styles.image}>
-          <Image src={HomeImage} width={800} height={400} alt="main" />
+        <figure>
+          <Image
+            src={HomeImage}
+            alt="main"
+            width={400}
+            height={100}
+            layout="responsive"
+          />
           <p className={Styles.description}>
             Well come to noodle Website
             <br />

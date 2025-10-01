@@ -1,11 +1,6 @@
 .section {
   text-align: center;
 }
-.image {
-  margin-left: 1000px;
-  border-radius: 10%;
-  overflow: hidden;
-}
 .description {
   font-size: 30px;
 }
