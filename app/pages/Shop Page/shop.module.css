@@ -1,3 +1,28 @@
 .section {
   text-aligin: center;
+  margin: 50px;
+}
+.headline {
+}
+.grid {
+  margin: 90px;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+}
+.GridItem {
+}
+.card {
+}
+.CardLink {
+  display: flex;
+}
+.CardLabel {
+}
+.CardInfo {
+}
+.CardHeadline {
+}
+.description {
+  margin: 30px;
 }

@@ -4,6 +4,8 @@ import Image from "next/image";
 import Sidebar from "@/app/components/layouts/sidebar/sidebar";
 import Hanamichi from "@/public/noodle/hanamichi.jpg";
 import Shiogensi from "@/public/noodle/siogensi.webp";
+import Rekishi from "@/public/noodle/rekishi.jpg";
+import Niryohan from "@/public/noodle/niryohan.webp";
 
 const shop = () => {
   return (
@@ -17,14 +19,28 @@ const shop = () => {
               <a href="#" className={Styles.CardLink}>
                 <span className={Styles.CardLabel}>New</span>
                 <Image src={Hanamichi} alt="main" width={400} height={100} />
-                <div className={Styles.CardInfo}>
-                  <time datetime="2025-01-01">2025.01.01</time>
-                  <h1 className={Styles.CardHeadline}>麺匠 はなみち</h1>
-                  <p className={Styles.description}>
-                    スープの味は三種類から選べるのが楽しめます
-                  </p>
-                </div>
+                <p className={Styles.description}>
+                  麺のこだわりは他店と比べて特別にしています、ぜひ一度ご賞味下さい
+                  <br />
+                  <br />
+                  <br />
+                  お問い合わせ: 06-6308-2039
+                  <br />
+                  <br />
+                  住所: 大阪府大阪市淀川区十三本町1-1-14
+                  <br />
+                  <br />
+                  営業時間:11:30 - 00:00
+                  （営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。）
+                  <br />
+                  <br />
+                  交通手段: 阪急十三駅西口から徒歩1分 十三駅から43m
+                </p>
               </a>
+              <div className={Styles.CardInfo}>
+                <time datetime="2025-01-01">2025.01.01</time>
+                <h1 className={Styles.CardHeadline}>麺匠 はなみち</h1>
+              </div>
             </article>
           </li>
         </ul>
@@ -34,14 +50,101 @@ const shop = () => {
               <a href="#" className={Styles.CardLink}>
                 <span className={Styles.CardLabel}>New</span>
                 <Image src={Shiogensi} alt="main" width={400} height={100} />
-                <div className={Styles.CardInfo}>
-                  <time datetime="2025-01-01">2025.01.01</time>
-                  <h1 className={Styles.CardHeadline}>塩元師 （大阪）</h1>
-                  <p className={Styles.description}>
-                    トッピングも豊富で柚子が効いてて最高！！
-                  </p>
-                </div>
+                <p className={Styles.description}>
+                  トッピングも豊富で柚子が効いてて最高！！
+                  <br />
+                  <br />
+                  <br />
+                  お問い合わせ: 06-6886-3331
+                  <br />
+                  <br />
+                  住所: 大阪府大阪市淀川区木川東3-6-24
+                  <br />
+                  <br />
+                  営業時間:月曜日〜金曜日 11時～15時、18時～24時
+                  土・日・祝・大型連休中 11時～24時
+                  <br />
+                  <br />
+                  ※【秋の店舗限定麺】販売のお知らせ 10/6(月)～11/30(日)の期間、
+                  本店尼崎塩元帥と共同開発した店舗限定麺『背脂醤油ラーメン』を販売致します。(数量限定)
+                  詳細は期間限定メニューページをご確認下さい。
+                  <br />
+                  <br />
+                  交通手段: 阪急十三駅西口から徒歩1分 十三駅から43m
+                </p>
               </a>
+              <div className={Styles.CardInfo}>
+                <time datetime="2025-01-01">2025.01.01</time>
+                <h1 className={Styles.CardHeadline}>塩元師 （西中島）</h1>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <ul className={Styles.grid}>
+          <li className={Styles.GridItem}>
+            <article className={Styles.card}>
+              <a href="#" className={Styles.CardLink}>
+                <span className={Styles.CardLabel}>New</span>
+                <Image src={Rekishi} alt="main" width={400} height={100} />
+                <p className={Styles.description}>
+                  こちらのラーメンは、とにかく見た目のインパクト大！もりもりに盛られたお野菜は、ボリューム満点です。ただ見た目とは裏腹に、お味はくどくないのでぺろりと食べられてしまいます。またぜひ行きたいお店です。
+                  <br />
+                  <br />
+                  <br />
+                  お問い合わせ: じゃらん旅行ガイドを見たと伝えるとスムーズです。
+                  06-6195-5910
+                  <br />
+                  <br />
+                  住所: 大阪府大阪市淀川区十三本町1-1-14
+                  <br />
+                  <br />
+                  営業時間: 月～土、祝日、祝前日: 11:00～15:0018:00～翌0:00
+                  定休日：日
+                  <br />
+                  <br />
+                  交通手段:
+                  阪急下新庄駅下車南へ徒歩5分。下新庄小学校前を通過し、右折です。
+                </p>
+              </a>
+              <div className={Styles.CardInfo}>
+                <time datetime="2025-01-01">2025.01.01</time>
+                <h1 className={Styles.CardHeadline}>ラーメン荘 歴史を刻め</h1>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <ul className={Styles.grid}>
+          <li className={Styles.GridItem}>
+            <article className={Styles.card}>
+              <a href="#" className={Styles.CardLink}>
+                <span className={Styles.CardLabel}>New</span>
+                <Image src={Niryohan} alt="main" width={400} height={100} />
+                <p className={Styles.description}>
+                  昔ながらのラーメンは懐かしく、、パラパラチャーハンや餃子との相性もとても良さそう。常連客の多いお店です
+                  <br />
+                  <br />
+                  <br />
+                  お問い合わせ: 06-6974-9238
+                  <br />
+                  <br />
+                  住所: 〒537-0024 大阪市東成区東小橋3丁目9番21号
+                  <br />
+                  <br />
+                  営業時間: 月、火、木、金、土、日 11:00 - 03:00 終了 02:45 水曜
+                  閉鎖 ラストオーダーは午前2時45分頃
+                  営業時間・定休日は変更になる場合がございますので、ご来店前に店舗にご確認ください。
+                  <br />
+                  交通手段: 近鉄大阪線・奈良線「鶴橋駅」東口より徒歩3分
+                  大阪メトロ千日前線「鶴橋駅」5番出口より徒歩3分
+                  JR大阪環状線「鶴橋駅」中央口より徒歩4分 鶴橋から304メートル。
+                </p>
+              </a>
+              <div className={Styles.CardInfo}>
+                <time datetime="2025-01-01">2025.01.01</time>
+                <h1 className={Styles.CardHeadline}>
+                  二菱半 鶴橋本店（二半両鶴橋本店）
+                </h1>
+              </div>
             </article>
           </li>
         </ul>
