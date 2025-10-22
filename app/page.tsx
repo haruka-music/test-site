@@ -4,6 +4,7 @@ import HomePage from "@/app/pages/HomePage/Home";
 import ShopPage from "@/app/pages/Shop Page/shop";
 // import BlogPage from "./page/BlogPage/Blog";
 import ContactPage from "@/app/pages/ContactPage/contact";
+import CommitmentPage from "@/app/pages/CommitmentPage/Commit";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           <Route path="/" element={<HomePage />} />
           <Route path="/Shop" element={<ShopPage />} />
           {/* <Route path="/blog" element={<BlogPage />} /> */}
+          <Route path="/Commit" element={<CommitmentPage />} />
           <Route path="/Contact" element={<ContactPage />} />
         </Routes>
       </div>

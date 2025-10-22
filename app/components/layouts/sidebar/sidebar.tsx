@@ -36,7 +36,7 @@ const sidebar = () => {
             </div>
           </div>
           <li className={Styles.ListName}>
-            <Link className={Styles.Link} to="/Lesson">
+            <Link className={Styles.Link} to="/Commit">
               こだわり
             </Link>
           </li>
