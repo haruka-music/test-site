@@ -14,7 +14,7 @@ const sidebar = () => {
             </div>
           </div>
           <li className={Styles.ListName}>
-            <Link className={Styles.Link} to="/Home">
+            <Link className={Styles.Link} to="/">
               ホーム
             </Link>
           </li>

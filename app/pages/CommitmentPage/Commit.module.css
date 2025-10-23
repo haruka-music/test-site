@@ -1,0 +1,27 @@
+.section {
+  text-aligin: center;
+  margin: 50px;
+}
+.headline {
+}
+.grid {
+  margin: 90px;
+  background-color: #ffe4c4;
+  color: white;
+  flex-wrap: wrap;
+}
+.GridItem {
+  color: black;
+}
+.feature {
+  margin: 0 auto;
+}
+.FHeadline {
+  margin: 30px, 30px, 0, 10px;
+}
+.FDescripton {
+  margin: 30px;
+}
+.FDescripton {
+  margin: 30px;
+}
