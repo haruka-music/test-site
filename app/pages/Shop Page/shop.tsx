@@ -6,6 +6,7 @@ import Hanamichi from "@/public/noodle/hanamichi.jpg";
 import Shiogensi from "@/public/noodle/siogensi.webp";
 import Rekishi from "@/public/noodle/rekishi.jpg";
 import Niryohan from "@/public/noodle/niryohan.webp";
+import Arakaze from "@/public/noodle/arakaze.webp";
 
 const shop = () => {
   return (
@@ -144,6 +145,43 @@ const shop = () => {
                 <h1 className={Styles.CardHeadline}>
                   二菱半 鶴橋本店（二半両鶴橋本店）
                 </h1>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <ul className={Styles.grid}>
+          <li className={Styles.GridItem}>
+            <article className={Styles.card}>
+              <a href="#" className={Styles.CardLink}>
+                <span className={Styles.CardLabel}>New</span>
+                <Image src={Arakaze} alt="main" width={400} height={100} />
+                <p className={Styles.description}>
+                  亭主相変わらずの無口。 今日は目すら合わせず、
+                  オーダーのチケットさえ見ずに カウンター放置。
+                  ここまできたら、もはや、 コミ障の内向性気質？
+                  <br />
+                  スープは醤油ベースに 鶏ガラに、豚骨の動物系に
+                  魚介、魚節系をミックスした、 なかなか絶妙なバランスです。
+                  <br />
+                  <br />
+                  <br />
+                  お問い合わせ: 072-813-2145
+                  <br />
+                  <br />
+                  住所: 〒537-0024 大阪市東成区東小橋3丁目9番21号
+                  <br />
+                  <br />
+                  [日・火〜金・土・祝・祝前] ランチ 11:30 〜 14:30 ディナー
+                  18:00 〜 21:30
+                  <br />
+                  京阪本線 / 萱島駅 徒歩22分（1.7km） 京阪本線 /
+                  大和田（大阪）駅 徒歩24分（1.9km） JR片町線(学研都市線) /
+                  四条畷駅（2.5km）
+                </p>
+              </a>
+              <div className={Styles.CardInfo}>
+                <time datetime="2025-01-01">2025.01.01</time>
+                <h1 className={Styles.CardHeadline}>嵐風 ARAKAZE</h1>
               </div>
             </article>
           </li>
