@@ -47,7 +47,7 @@ const sidebar = () => {
             </div>
           </div>
           <li className={Styles.ListName}>
-            <Link className={Styles.Link} to="/Movies">
+            <Link className={Styles.Link} to="/blog">
               ブログ
             </Link>
           </li>
@@ -58,8 +58,8 @@ const sidebar = () => {
             </div>
           </div>
           <li className={Styles.ListName}>
-            <Link className={Styles.Link} to="/Blog">
-              地図
+            <Link className={Styles.Link} to="/Music">
+              ひとときの時間
             </Link>
           </li>
 
