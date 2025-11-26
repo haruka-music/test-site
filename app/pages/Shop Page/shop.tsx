@@ -7,6 +7,7 @@ import Shiogensi from "@/public/noodle/siogensi.webp";
 import Rekishi from "@/public/noodle/rekishi.jpg";
 import Niryohan from "@/public/noodle/niryohan.webp";
 import Arakaze from "@/public/noodle/arakaze.webp";
+import Butayama from "@/public/noodle/butayama.jpg";
 
 const shop = () => {
   return (
@@ -39,7 +40,7 @@ const shop = () => {
                 </p>
               </a>
               <div className={Styles.CardInfo}>
-                <time datetime="2025-01-01">2025.01.01</time>
+                <time dateTime="2025-01-01">2025.01.01</time>
                 <h1 className={Styles.CardHeadline}>麺匠 はなみち</h1>
               </div>
             </article>
@@ -75,7 +76,7 @@ const shop = () => {
                 </p>
               </a>
               <div className={Styles.CardInfo}>
-                <time datetime="2025-01-01">2025.01.01</time>
+                <time dateTime="2025-01-01">2025.01.01</time>
                 <h1 className={Styles.CardHeadline}>塩元師 （西中島）</h1>
               </div>
             </article>
@@ -108,7 +109,7 @@ const shop = () => {
                 </p>
               </a>
               <div className={Styles.CardInfo}>
-                <time datetime="2025-01-01">2025.01.01</time>
+                <time dateTime="2025-01-01">2025.01.01</time>
                 <h1 className={Styles.CardHeadline}>ラーメン荘 歴史を刻め</h1>
               </div>
             </article>
@@ -141,7 +142,7 @@ const shop = () => {
                 </p>
               </a>
               <div className={Styles.CardInfo}>
-                <time datetime="2025-01-01">2025.01.01</time>
+                <time dateTime="2025-01-01">2025.01.01</time>
                 <h1 className={Styles.CardHeadline}>
                   二菱半 鶴橋本店（二半両鶴橋本店）
                 </h1>
@@ -180,8 +181,47 @@ const shop = () => {
                 </p>
               </a>
               <div className={Styles.CardInfo}>
-                <time datetime="2025-01-01">2025.01.01</time>
+                <time dateTime="2025-01-01">2025.01.01</time>
                 <h1 className={Styles.CardHeadline}>嵐風 ARAKAZE</h1>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <ul className={Styles.grid}>
+          <li className={Styles.GridItem}>
+            <article className={Styles.card}>
+              <a href="#" className={Styles.CardLink}>
+                <span className={Styles.CardLabel}>New</span>
+                <Image src={Butayama} alt="main" width={400} height={100} />
+                <p className={Styles.description}>
+                  店内は食券タイプでお昼にはよく列ができているイメージです。
+                  <br />
+                  腰の強い平打ち太麺で
+                  こってり濃厚スープまで完食とは行きませんが?
+                  たまに頂きたくなる、ガッツリ二郎系、こんな一杯もたまには良いですね。
+                  <br />
+                  <br />
+                  <br />
+                  お問い合わせ: 06-6476-7767
+                  <br />
+                  <br />
+                  阪急十三駅（東口）徒歩30秒
+                  大阪シティバス十三バス停（大阪駅バスターミナル6番のりばから97号系統加島駅行き・69号系統三津屋経由榎木橋行きで）から商店街、阪急十三駅下の地下道を西から東へ抜けて東口へ。徒歩約5分
+                  十三駅から34m
+                  <br />
+                  <br />
+                  ■ 営業時間
+                  営業時間・休業日は変更となる場合がございますので、HPにて最新情報をご確認ください
+                  ■ 定休日 無休
+                  <br />
+                  京阪本線 / 萱島駅 徒歩22分（1.7km） 京阪本線 /
+                  大和田（大阪）駅 徒歩24分（1.9km） JR片町線(学研都市線) /
+                  四条畷駅（2.5km）
+                </p>
+              </a>
+              <div className={Styles.CardInfo}>
+                <time dateTime="2025-01-01">2025.01.01</time>
+                <h1 className={Styles.CardHeadline}>ラーメン豚山 十三東口店</h1>
               </div>
             </article>
           </li>
