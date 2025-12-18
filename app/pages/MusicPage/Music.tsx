@@ -18,7 +18,11 @@ const Music = () => {
             <br />
             老舗の感じで
           </li>
-          <li className={Styles.list}>②JPoP（）</li>
+          <li className={Styles.list}>
+            ②懐メロ（80s'〜90s'）
+            <br />
+            年齢層に合わせて曲を変える
+          </li>
           <li className={Styles.list}>
             ③Ctiy Music （真夜中のドア～Stay With Me...松原みき）
             <br />
